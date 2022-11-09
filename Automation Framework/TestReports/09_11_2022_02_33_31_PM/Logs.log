@@ -1,0 +1,704 @@
+ INFO | 2022-11-09 14:33:31,925 | CommonFrameworkKeywords.java | 90 | Startup activites...
+ INFO | 2022-11-09 14:33:31,929 | CommonFrameworkKeywords.java | 90 | Test Output Directory creation successful :C:\Users\v-sivasankars\Downloads\Automation Framework (1) (1)\Automation Framework/TestReports/09_11_2022_02_33_31_PM
+ INFO | 2022-11-09 14:33:31,930 | CommonFrameworkKeywords.java | 90 | Log File creation successful : LogFile.log
+ INFO | 2022-11-09 14:33:32,681 | CommonFrameworkKeywords.java | 90 | Getting value of Tc_Settings_Excelpath from Test Configuration file : ./data/TCExecutionSettings.xls
+ INFO | 2022-11-09 14:33:34,341 | CommonFrameworkKeywords.java | 90 | Getting value of ElementLoadWaitTime from Test Configuration file : 61
+ INFO | 2022-11-09 14:33:34,343 | CommonFrameworkKeywords.java | 90 | Getting value of TextLoadWaitTime from Test Configuration file : 64
+ INFO | 2022-11-09 14:33:34,344 | CommonFrameworkKeywords.java | 90 | Getting value of PageLoadWaitTime from Test Configuration file : 60
+ INFO | 2022-11-09 14:33:34,345 | CommonFrameworkKeywords.java | 90 | Getting value of ImplicitlyWaitTime from Test Configuration file : 62
+ INFO | 2022-11-09 14:33:34,346 | CommonFrameworkKeywords.java | 90 | Element time out set
+ INFO | 2022-11-09 14:33:34,349 | CommonFrameworkKeywords.java | 90 | Getting value of NexInfo_logo_path from Test Configuration file : ./Logos/nexInfo.jpg
+ INFO | 2022-11-09 14:33:34,362 | CommonFrameworkKeywords.java | 90 | Getting value of Zenoti_logo_path from Test Configuration file : ./Logos/nexInfo.jpg
+ INFO | 2022-11-09 14:33:34,364 | CommonFrameworkKeywords.java | 90 | Getting value of NexInfo_logo_path from Test Configuration file : ./Logos/nexInfo.jpg
+ INFO | 2022-11-09 14:33:34,365 | CommonFrameworkKeywords.java | 90 | Getting value of Zenoti_logo_path from Test Configuration file : ./Logos/nexInfo.jpg
+ INFO | 2022-11-09 14:33:34,429 | CommonFrameworkKeywords.java | 90 | Opening Chrome Browser...
+ INFO | 2022-11-09 14:33:34,430 | CommonFrameworkKeywords.java | 90 | Getting value of AppiumTimeOut from Test Configuration file : 63
+ INFO | 2022-11-09 14:33:39,248 | CommonFrameworkKeywords.java | 90 | Successfully Maximised Browser Window
+ INFO | 2022-11-09 14:33:39,264 | CommonFrameworkKeywords.java | 90 | Browser: Open Successful : chrome
+ INFO | 2022-11-09 14:33:39,265 | CommonFrameworkKeywords.java | 90 | Lanuch App : chrome
+ INFO | 2022-11-09 14:33:39,271 | CommonFrameworkKeywords.java | 90 | Getting value of URL from Test Configuration file : https://eoeq-test.fa.us2.oraclecloud.com/
+ INFO | 2022-11-09 14:33:39,272 | CommonFrameworkKeywords.java | 90 | Navigating to URL : https://eoeq-test.fa.us2.oraclecloud.com/
+ INFO | 2022-11-09 14:33:46,145 | CommonFrameworkKeywords.java | 90 | Navigation Successful : https://eoeq-test.fa.us2.oraclecloud.com/
+ INFO | 2022-11-09 14:33:46,146 | CommonFrameworkKeywords.java | 90 | Go to : https://eoeq-test.fa.us2.oraclecloud.com/
+ INFO | 2022-11-09 14:33:46,831 | CommonFrameworkKeywords.java | 90 | Getting value of ElementLoadWaitTime from Test Configuration file : 61
+ INFO | 2022-11-09 14:33:46,832 | CommonFrameworkKeywords.java | 90 | Getting value of TextLoadWaitTime from Test Configuration file : 64
+ INFO | 2022-11-09 14:33:46,833 | CommonFrameworkKeywords.java | 90 | Getting value of PageLoadWaitTime from Test Configuration file : 60
+ INFO | 2022-11-09 14:33:46,835 | CommonFrameworkKeywords.java | 90 | Getting value of ImplicitlyWaitTime from Test Configuration file : 62
+ INFO | 2022-11-09 14:33:46,835 | CommonFrameworkKeywords.java | 90 | Element time out set
+ INFO | 2022-11-09 14:33:46,836 | CommonFrameworkKeywords.java | 90 | ##### Start of Test Case : AP_TS_001 #####
+ INFO | 2022-11-09 14:33:46,840 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:46,983 | CommonFrameworkKeywords.java | 90 | Getting value of Username from Test Configuration file : erpsysadmin
+ INFO | 2022-11-09 14:33:46,985 | CommonFrameworkKeywords.java | 90 | Getting value of Password from Test Configuration file : TSTerp!@#456
+ INFO | 2022-11-09 14:33:46,987 | CommonFrameworkKeywords.java | 90 | Getting value of URL from Test Configuration file : https://eoeq-test.fa.us2.oraclecloud.com/
+ INFO | 2022-11-09 14:33:46,987 | CommonFrameworkKeywords.java | 90 | Navigating to URL : https://eoeq-test.fa.us2.oraclecloud.com/
+ INFO | 2022-11-09 14:33:49,164 | CommonFrameworkKeywords.java | 90 | Navigation Successful : https://eoeq-test.fa.us2.oraclecloud.com/
+ INFO | 2022-11-09 14:33:49,166 | CommonFrameworkKeywords.java | 90 | Go to : https://eoeq-test.fa.us2.oraclecloud.com/
+ INFO | 2022-11-09 14:33:49,187 | CommonFrameworkKeywords.java | 90 | Parsing : Username textbox@id=userid
+ INFO | 2022-11-09 14:33:49,188 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : id
+ INFO | 2022-11-09 14:33:49,189 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : userid
+ INFO | 2022-11-09 14:33:49,190 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Username textbox
+ INFO | 2022-11-09 14:33:49,655 | CommonFrameworkKeywords.java | 90 | Type 'erpsysadmin' in : Username textbox
+ INFO | 2022-11-09 14:33:49,661 | CommonFrameworkKeywords.java | 90 | Typing 'erpsysadmin' in : Username textbox
+ INFO | 2022-11-09 14:33:49,674 | CommonFrameworkKeywords.java | 90 | Parsing : Password textbox@id=password
+ INFO | 2022-11-09 14:33:49,675 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : id
+ INFO | 2022-11-09 14:33:49,675 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : password
+ INFO | 2022-11-09 14:33:49,676 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Password textbox
+ INFO | 2022-11-09 14:33:50,170 | CommonFrameworkKeywords.java | 90 | Type 'TSTerp!@#456' in : Password textbox
+ INFO | 2022-11-09 14:33:50,175 | CommonFrameworkKeywords.java | 90 | Typing 'TSTerp!@#456' in : Password textbox
+ INFO | 2022-11-09 14:33:50,185 | CommonFrameworkKeywords.java | 90 | Parsing : Submit button@id=btnActive
+ INFO | 2022-11-09 14:33:50,186 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : id
+ INFO | 2022-11-09 14:33:50,186 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : btnActive
+ INFO | 2022-11-09 14:33:50,187 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Submit button
+ INFO | 2022-11-09 14:33:54,392 | CommonFrameworkKeywords.java | 90 | Click on :Submit button
+ INFO | 2022-11-09 14:33:54,402 | CommonFrameworkKeywords.java | 90 | Getting value of Supplier from Test Configuration file : THSUPPLIER
+ INFO | 2022-11-09 14:33:54,405 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:54,593 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:54,809 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:55,002 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:55,186 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:55,371 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:55,495 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:55,610 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:55,720 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:55,836 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:55,956 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:56,064 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:56,180 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:56,295 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:56,408 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:56,504 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:56,612 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:56,710 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:56,832 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:56,957 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:57,054 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:57,149 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:57,258 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:57,382 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:57,480 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:57,549 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:57,640 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:57,742 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:33:57,812 | CommonFrameworkKeywords.java | 90 | Parsing : Home link@xpath=//a[@title='Home']
+ INFO | 2022-11-09 14:33:57,812 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:33:57,812 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //a[@title='Home']
+ INFO | 2022-11-09 14:33:57,813 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Home link
+ INFO | 2022-11-09 14:34:15,662 | CommonFrameworkKeywords.java | 90 | Click on :Home link
+ INFO | 2022-11-09 14:34:15,665 | CommonFrameworkKeywords.java | 90 | Waiting for 2 seconds...
+ INFO | 2022-11-09 14:34:17,672 | CommonFrameworkKeywords.java | 90 | Parsing : Procurement link@xpath=//div[@id='groupNode_procurement']
+ INFO | 2022-11-09 14:34:17,672 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:17,672 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //div[@id='groupNode_procurement']
+ INFO | 2022-11-09 14:34:17,672 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Procurement link
+ INFO | 2022-11-09 14:34:17,735 | CommonFrameworkKeywords.java | 90 | Click on :Procurement link
+ INFO | 2022-11-09 14:34:17,738 | CommonFrameworkKeywords.java | 90 | Waiting for 2 seconds...
+ INFO | 2022-11-09 14:34:19,747 | CommonFrameworkKeywords.java | 90 | Parsing : Suppliers link@id=itemNode_procurement_suppliers
+ INFO | 2022-11-09 14:34:19,748 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : id
+ INFO | 2022-11-09 14:34:19,748 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : itemNode_procurement_suppliers
+ INFO | 2022-11-09 14:34:19,749 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Suppliers link
+ INFO | 2022-11-09 14:34:19,842 | CommonFrameworkKeywords.java | 90 | Click on :Suppliers link
+ INFO | 2022-11-09 14:34:19,856 | CommonFrameworkKeywords.java | 90 | Parsing : Task panel@xpath=//div[@title='Tasks']
+ INFO | 2022-11-09 14:34:19,857 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:19,858 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //div[@title='Tasks']
+ INFO | 2022-11-09 14:34:19,858 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Task panel
+ INFO | 2022-11-09 14:34:19,934 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:20,950 | CommonFrameworkKeywords.java | 90 | Parsing : Task panel@xpath=//div[@title='Tasks']
+ INFO | 2022-11-09 14:34:20,950 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:20,951 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //div[@title='Tasks']
+ INFO | 2022-11-09 14:34:20,951 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Task panel
+ INFO | 2022-11-09 14:34:20,983 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:21,998 | CommonFrameworkKeywords.java | 90 | Parsing : Task panel@xpath=//div[@title='Tasks']
+ INFO | 2022-11-09 14:34:21,999 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:21,999 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //div[@title='Tasks']
+ INFO | 2022-11-09 14:34:22,000 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Task panel
+ INFO | 2022-11-09 14:34:22,035 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:23,042 | CommonFrameworkKeywords.java | 90 | Parsing : Task panel@xpath=//div[@title='Tasks']
+ INFO | 2022-11-09 14:34:23,043 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:23,044 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //div[@title='Tasks']
+ INFO | 2022-11-09 14:34:23,044 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Task panel
+ INFO | 2022-11-09 14:34:24,972 | CommonFrameworkKeywords.java | 90 | Click on :Task panel
+ INFO | 2022-11-09 14:34:24,982 | CommonFrameworkKeywords.java | 90 | Parsing : Create Supplier link @xpath=(//a[contains(text(),'Create Supplier')])[1]
+ INFO | 2022-11-09 14:34:24,983 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:24,983 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//a[contains(text(),'Create Supplier')])[1]
+ INFO | 2022-11-09 14:34:24,983 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Create Supplier link 
+ INFO | 2022-11-09 14:34:25,023 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:26,035 | CommonFrameworkKeywords.java | 90 | Parsing : Create Supplier link @xpath=(//a[contains(text(),'Create Supplier')])[1]
+ INFO | 2022-11-09 14:34:26,035 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:26,036 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//a[contains(text(),'Create Supplier')])[1]
+ INFO | 2022-11-09 14:34:26,036 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Create Supplier link 
+ INFO | 2022-11-09 14:34:26,223 | CommonFrameworkKeywords.java | 90 | Click on :Create Supplier link 
+ INFO | 2022-11-09 14:34:26,235 | CommonFrameworkKeywords.java | 90 | Parsing : Suppliers textbox@xpath=//label[contains(text(),'Supplier')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:26,235 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:26,236 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Supplier')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:26,236 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Suppliers textbox
+ INFO | 2022-11-09 14:34:26,299 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:27,307 | CommonFrameworkKeywords.java | 90 | Parsing : Suppliers textbox@xpath=//label[contains(text(),'Supplier')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:27,308 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:27,308 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Supplier')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:27,308 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Suppliers textbox
+ INFO | 2022-11-09 14:34:27,345 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:28,354 | CommonFrameworkKeywords.java | 90 | Parsing : Suppliers textbox@xpath=//label[contains(text(),'Supplier')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:28,355 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:28,355 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Supplier')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:28,355 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Suppliers textbox
+ INFO | 2022-11-09 14:34:29,162 | CommonFrameworkKeywords.java | 90 | Type 'THSUPPLIER09_11_2022_02_33_31_PM' in : Suppliers textbox
+ INFO | 2022-11-09 14:34:29,164 | CommonFrameworkKeywords.java | 90 | Typing 'THSUPPLIER09_11_2022_02_33_31_PM' in : Suppliers textbox
+ INFO | 2022-11-09 14:34:29,173 | CommonFrameworkKeywords.java | 90 | Parsing : Business Relationship dropdwon@xpath=//label[contains(text(),'Business Relationship')]/parent::td/parent::tr//select
+ INFO | 2022-11-09 14:34:29,173 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:29,174 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Business Relationship')]/parent::td/parent::tr//select
+ INFO | 2022-11-09 14:34:29,174 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Business Relationship dropdwon
+ INFO | 2022-11-09 14:34:29,473 | CommonFrameworkKeywords.java | 90 | Select 'Spend Authorized' option  from : Business Relationship dropdwon'
+ INFO | 2022-11-09 14:34:29,490 | CommonFrameworkKeywords.java | 90 | Parsing : Tax Organization Type dropdown@xpath=//label[contains(text(),'Tax Organization Type')]/parent::td/parent::tr//select
+ INFO | 2022-11-09 14:34:29,490 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:29,490 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Tax Organization Type')]/parent::td/parent::tr//select
+ INFO | 2022-11-09 14:34:29,491 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Tax Organization Type dropdown
+ INFO | 2022-11-09 14:34:29,847 | CommonFrameworkKeywords.java | 90 | Select 'Corporation' option  from : Tax Organization Type dropdown'
+ INFO | 2022-11-09 14:34:29,869 | CommonFrameworkKeywords.java | 90 | Parsing : Create button@xpath=//button[text()='Create']
+ INFO | 2022-11-09 14:34:29,870 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:29,871 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //button[text()='Create']
+ INFO | 2022-11-09 14:34:29,871 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Create button
+ INFO | 2022-11-09 14:34:30,006 | CommonFrameworkKeywords.java | 90 | Click on :Create button
+ INFO | 2022-11-09 14:34:30,022 | CommonFrameworkKeywords.java | 90 | Parsing : Addresses link@xpath=(//a[contains(text(),'Addresses')])/parent::div/parent::div[contains(@id,'Tab')]
+ INFO | 2022-11-09 14:34:30,023 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:30,024 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//a[contains(text(),'Addresses')])/parent::div/parent::div[contains(@id,'Tab')]
+ INFO | 2022-11-09 14:34:30,024 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Addresses link
+ INFO | 2022-11-09 14:34:30,076 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:31,080 | CommonFrameworkKeywords.java | 90 | Parsing : Addresses link@xpath=(//a[contains(text(),'Addresses')])/parent::div/parent::div[contains(@id,'Tab')]
+ INFO | 2022-11-09 14:34:31,081 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:31,081 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//a[contains(text(),'Addresses')])/parent::div/parent::div[contains(@id,'Tab')]
+ INFO | 2022-11-09 14:34:31,082 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Addresses link
+ INFO | 2022-11-09 14:34:31,118 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:32,126 | CommonFrameworkKeywords.java | 90 | Parsing : Addresses link@xpath=(//a[contains(text(),'Addresses')])/parent::div/parent::div[contains(@id,'Tab')]
+ INFO | 2022-11-09 14:34:32,126 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:32,127 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//a[contains(text(),'Addresses')])/parent::div/parent::div[contains(@id,'Tab')]
+ INFO | 2022-11-09 14:34:32,127 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Addresses link
+ INFO | 2022-11-09 14:34:32,157 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:33,161 | CommonFrameworkKeywords.java | 90 | Parsing : Addresses link@xpath=(//a[contains(text(),'Addresses')])/parent::div/parent::div[contains(@id,'Tab')]
+ INFO | 2022-11-09 14:34:33,162 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:33,162 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//a[contains(text(),'Addresses')])/parent::div/parent::div[contains(@id,'Tab')]
+ INFO | 2022-11-09 14:34:33,163 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Addresses link
+ INFO | 2022-11-09 14:34:33,198 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:34,201 | CommonFrameworkKeywords.java | 90 | Parsing : Addresses link@xpath=(//a[contains(text(),'Addresses')])/parent::div/parent::div[contains(@id,'Tab')]
+ INFO | 2022-11-09 14:34:34,201 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:34,202 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//a[contains(text(),'Addresses')])/parent::div/parent::div[contains(@id,'Tab')]
+ INFO | 2022-11-09 14:34:34,202 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Addresses link
+ INFO | 2022-11-09 14:34:34,235 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:35,247 | CommonFrameworkKeywords.java | 90 | Parsing : Addresses link@xpath=(//a[contains(text(),'Addresses')])/parent::div/parent::div[contains(@id,'Tab')]
+ INFO | 2022-11-09 14:34:35,247 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:35,249 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//a[contains(text(),'Addresses')])/parent::div/parent::div[contains(@id,'Tab')]
+ INFO | 2022-11-09 14:34:35,249 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Addresses link
+ INFO | 2022-11-09 14:34:35,279 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:36,280 | CommonFrameworkKeywords.java | 90 | Parsing : Addresses link@xpath=(//a[contains(text(),'Addresses')])/parent::div/parent::div[contains(@id,'Tab')]
+ INFO | 2022-11-09 14:34:36,281 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:36,281 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//a[contains(text(),'Addresses')])/parent::div/parent::div[contains(@id,'Tab')]
+ INFO | 2022-11-09 14:34:36,282 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Addresses link
+ INFO | 2022-11-09 14:34:36,314 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:37,329 | CommonFrameworkKeywords.java | 90 | Parsing : Addresses link@xpath=(//a[contains(text(),'Addresses')])/parent::div/parent::div[contains(@id,'Tab')]
+ INFO | 2022-11-09 14:34:37,329 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:37,330 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//a[contains(text(),'Addresses')])/parent::div/parent::div[contains(@id,'Tab')]
+ INFO | 2022-11-09 14:34:37,330 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Addresses link
+ INFO | 2022-11-09 14:34:37,850 | CommonFrameworkKeywords.java | 90 | Click on :Addresses link
+ INFO | 2022-11-09 14:34:37,863 | CommonFrameworkKeywords.java | 90 | Parsing : Add symbol button@xpath=//img[@title='Create']
+ INFO | 2022-11-09 14:34:37,864 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:37,865 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //img[@title='Create']
+ INFO | 2022-11-09 14:34:37,866 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Add symbol button
+ INFO | 2022-11-09 14:34:37,912 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:38,923 | CommonFrameworkKeywords.java | 90 | Parsing : Add symbol button@xpath=//img[@title='Create']
+ INFO | 2022-11-09 14:34:38,923 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:38,923 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //img[@title='Create']
+ INFO | 2022-11-09 14:34:38,923 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Add symbol button
+ INFO | 2022-11-09 14:34:39,074 | CommonFrameworkKeywords.java | 90 | Click on :Add symbol button
+ INFO | 2022-11-09 14:34:39,084 | CommonFrameworkKeywords.java | 90 | Parsing : Address name testxbox@xpath=//label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:39,084 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:39,085 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:39,085 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Address name testxbox
+ INFO | 2022-11-09 14:34:39,114 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:40,123 | CommonFrameworkKeywords.java | 90 | Parsing : Address name testxbox@xpath=//label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:40,123 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:40,124 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:40,124 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Address name testxbox
+ INFO | 2022-11-09 14:34:40,154 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:41,169 | CommonFrameworkKeywords.java | 90 | Parsing : Address name testxbox@xpath=//label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:41,169 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:41,169 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:41,170 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Address name testxbox
+ INFO | 2022-11-09 14:34:41,203 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:42,204 | CommonFrameworkKeywords.java | 90 | Parsing : Address name testxbox@xpath=//label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:42,204 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:42,205 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:42,205 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Address name testxbox
+ INFO | 2022-11-09 14:34:42,231 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:43,234 | CommonFrameworkKeywords.java | 90 | Parsing : Address name testxbox@xpath=//label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:43,234 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:43,234 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:43,235 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Address name testxbox
+ INFO | 2022-11-09 14:34:43,254 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:44,261 | CommonFrameworkKeywords.java | 90 | Parsing : Address name testxbox@xpath=//label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:44,261 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:44,261 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:44,261 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Address name testxbox
+ INFO | 2022-11-09 14:34:44,280 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:45,296 | CommonFrameworkKeywords.java | 90 | Parsing : Address name testxbox@xpath=//label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:45,296 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:45,296 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:45,296 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Address name testxbox
+ INFO | 2022-11-09 14:34:45,314 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:46,318 | CommonFrameworkKeywords.java | 90 | Parsing : Address name testxbox@xpath=//label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:46,319 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:46,319 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:46,319 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Address name testxbox
+ INFO | 2022-11-09 14:34:46,347 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:47,350 | CommonFrameworkKeywords.java | 90 | Parsing : Address name testxbox@xpath=//label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:47,351 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:47,351 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:47,351 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Address name testxbox
+ INFO | 2022-11-09 14:34:47,374 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:48,388 | CommonFrameworkKeywords.java | 90 | Parsing : Address name testxbox@xpath=//label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:48,389 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:48,390 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:48,390 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Address name testxbox
+ INFO | 2022-11-09 14:34:48,421 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:49,427 | CommonFrameworkKeywords.java | 90 | Parsing : Address name testxbox@xpath=//label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:49,427 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:49,428 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:49,428 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Address name testxbox
+ INFO | 2022-11-09 14:34:49,460 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:50,474 | CommonFrameworkKeywords.java | 90 | Parsing : Address name testxbox@xpath=//label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:50,475 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:50,475 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:50,475 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Address name testxbox
+ INFO | 2022-11-09 14:34:51,138 | CommonFrameworkKeywords.java | 90 | Type 'AddrTemp09_11_2022_02_33_31_PM' in : Address name testxbox
+ INFO | 2022-11-09 14:34:51,144 | CommonFrameworkKeywords.java | 90 | Typing 'AddrTemp09_11_2022_02_33_31_PM' in : Address name testxbox
+ INFO | 2022-11-09 14:34:51,154 | CommonFrameworkKeywords.java | 90 | Parsing : Country textbox@xpath=//label[contains(text(),'Country')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:51,155 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:51,155 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Country')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:51,155 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Country textbox
+ INFO | 2022-11-09 14:34:51,728 | CommonFrameworkKeywords.java | 90 | Type 'United States' in : Country textbox
+ INFO | 2022-11-09 14:34:51,734 | CommonFrameworkKeywords.java | 90 | Typing 'United States' in : Country textbox
+ INFO | 2022-11-09 14:34:51,742 | CommonFrameworkKeywords.java | 90 | Parsing : United States US option link@xpath=//li[text()='United States US']
+ INFO | 2022-11-09 14:34:51,743 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:51,744 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //li[text()='United States US']
+ INFO | 2022-11-09 14:34:51,744 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : United States US option link
+ INFO | 2022-11-09 14:34:51,792 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:52,816 | CommonFrameworkKeywords.java | 90 | Parsing : United States US option link@xpath=//li[text()='United States US']
+ INFO | 2022-11-09 14:34:52,817 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:52,817 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //li[text()='United States US']
+ INFO | 2022-11-09 14:34:52,817 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : United States US option link
+ INFO | 2022-11-09 14:34:52,853 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:34:53,854 | CommonFrameworkKeywords.java | 90 | Parsing : United States US option link@xpath=//li[text()='United States US']
+ INFO | 2022-11-09 14:34:53,855 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:53,855 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //li[text()='United States US']
+ INFO | 2022-11-09 14:34:53,855 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : United States US option link
+ INFO | 2022-11-09 14:34:53,907 | CommonFrameworkKeywords.java | 90 | Click on :United States US option link
+ INFO | 2022-11-09 14:34:53,918 | CommonFrameworkKeywords.java | 90 | Parsing : Address name testxbox@xpath=//label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:53,919 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:53,919 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:53,920 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Address name testxbox
+ INFO | 2022-11-09 14:34:54,599 | CommonFrameworkKeywords.java | 90 | Type 'AddrTemp09_11_2022_02_33_31_PM' in : Address name testxbox
+ INFO | 2022-11-09 14:34:54,604 | CommonFrameworkKeywords.java | 90 | Typing 'AddrTemp09_11_2022_02_33_31_PM' in : Address name testxbox
+ INFO | 2022-11-09 14:34:54,610 | CommonFrameworkKeywords.java | 90 | Parsing : Ordering@xpath=//label[contains(text(),'Ordering')]/parent::span//input
+ INFO | 2022-11-09 14:34:54,611 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:54,611 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Ordering')]/parent::span//input
+ INFO | 2022-11-09 14:34:54,611 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Ordering
+ INFO | 2022-11-09 14:34:54,748 | CommonFrameworkKeywords.java | 90 | Click on :Ordering
+ INFO | 2022-11-09 14:34:54,766 | CommonFrameworkKeywords.java | 90 | Parsing : Remit to@xpath=//label[contains(text(),'Remit to')]/parent::span//input
+ INFO | 2022-11-09 14:34:54,766 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:54,767 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Remit to')]/parent::span//input
+ INFO | 2022-11-09 14:34:54,767 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Remit to
+ INFO | 2022-11-09 14:34:54,846 | CommonFrameworkKeywords.java | 90 | Click on :Remit to
+ INFO | 2022-11-09 14:34:54,856 | CommonFrameworkKeywords.java | 90 | Parsing : RFQ or Bidding@xpath=//label[contains(text(),'RFQ or Bidding')]/parent::span//input
+ INFO | 2022-11-09 14:34:54,857 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:54,857 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'RFQ or Bidding')]/parent::span//input
+ INFO | 2022-11-09 14:34:54,858 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : RFQ or Bidding
+ INFO | 2022-11-09 14:34:54,935 | CommonFrameworkKeywords.java | 90 | Click on :RFQ or Bidding
+ INFO | 2022-11-09 14:34:54,941 | CommonFrameworkKeywords.java | 90 | Waiting for 5 seconds...
+ INFO | 2022-11-09 14:34:59,951 | CommonFrameworkKeywords.java | 90 | Parsing : City testxbox@xpath=//label[contains(text(),'City')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:59,951 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:34:59,952 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'City')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:34:59,952 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : City testxbox
+ INFO | 2022-11-09 14:35:00,471 | CommonFrameworkKeywords.java | 90 | Type 'Santa Ana' in : City testxbox
+ INFO | 2022-11-09 14:35:00,477 | CommonFrameworkKeywords.java | 90 | Typing 'Santa Ana' in : City testxbox
+ INFO | 2022-11-09 14:35:00,484 | CommonFrameworkKeywords.java | 90 | Parsing : State testxbox@xpath=//label[contains(text(),'State')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:00,484 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:00,484 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'State')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:00,485 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : State testxbox
+ INFO | 2022-11-09 14:35:00,983 | CommonFrameworkKeywords.java | 90 | Type 'CA' in : State testxbox
+ INFO | 2022-11-09 14:35:00,988 | CommonFrameworkKeywords.java | 90 | Typing 'CA' in : State testxbox
+ INFO | 2022-11-09 14:35:00,994 | CommonFrameworkKeywords.java | 90 | Parsing : Postal Code testxbox@xpath=//label[contains(text(),'Postal Code')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:00,995 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:00,995 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Postal Code')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:00,996 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Postal Code testxbox
+ INFO | 2022-11-09 14:35:01,437 | CommonFrameworkKeywords.java | 90 | Type '92701' in : Postal Code testxbox
+ INFO | 2022-11-09 14:35:01,442 | CommonFrameworkKeywords.java | 90 | Typing '92701' in : Postal Code testxbox
+ INFO | 2022-11-09 14:35:01,444 | CommonFrameworkKeywords.java | 90 | Getting value of AppType from Test Configuration file : Hybird
+ INFO | 2022-11-09 14:35:01,784 | CommonFrameworkKeywords.java | 90 | Parsing : Save and close button@xpath=//span[contains(text(),'ave and Close')]
+ INFO | 2022-11-09 14:35:01,785 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:01,785 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //span[contains(text(),'ave and Close')]
+ INFO | 2022-11-09 14:35:01,785 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Save and close button
+ INFO | 2022-11-09 14:35:01,971 | CommonFrameworkKeywords.java | 90 | Click the 'Save and close button'
+ INFO | 2022-11-09 14:35:01,976 | CommonFrameworkKeywords.java | 90 | Parsing : Addresses link@xpath=//a[contains(text(),'AddrTemp09_11_2022_02_33_31_PM')]
+ INFO | 2022-11-09 14:35:01,976 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:01,976 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //a[contains(text(),'AddrTemp09_11_2022_02_33_31_PM')]
+ INFO | 2022-11-09 14:35:01,976 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Addresses link
+ INFO | 2022-11-09 14:35:01,997 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:03,001 | CommonFrameworkKeywords.java | 90 | Parsing : Addresses link@xpath=//a[contains(text(),'AddrTemp09_11_2022_02_33_31_PM')]
+ INFO | 2022-11-09 14:35:03,001 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:03,002 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //a[contains(text(),'AddrTemp09_11_2022_02_33_31_PM')]
+ INFO | 2022-11-09 14:35:03,002 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Addresses link
+ INFO | 2022-11-09 14:35:03,031 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:04,037 | CommonFrameworkKeywords.java | 90 | Parsing : Addresses link@xpath=//a[contains(text(),'AddrTemp09_11_2022_02_33_31_PM')]
+ INFO | 2022-11-09 14:35:04,037 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:04,037 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //a[contains(text(),'AddrTemp09_11_2022_02_33_31_PM')]
+ INFO | 2022-11-09 14:35:04,037 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Addresses link
+ INFO | 2022-11-09 14:35:04,067 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:05,080 | CommonFrameworkKeywords.java | 90 | Parsing : Addresses link@xpath=//a[contains(text(),'AddrTemp09_11_2022_02_33_31_PM')]
+ INFO | 2022-11-09 14:35:05,081 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:05,081 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //a[contains(text(),'AddrTemp09_11_2022_02_33_31_PM')]
+ INFO | 2022-11-09 14:35:05,081 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Addresses link
+ INFO | 2022-11-09 14:35:05,112 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:06,127 | CommonFrameworkKeywords.java | 90 | Parsing : Addresses link@xpath=//a[contains(text(),'AddrTemp09_11_2022_02_33_31_PM')]
+ INFO | 2022-11-09 14:35:06,128 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:06,128 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //a[contains(text(),'AddrTemp09_11_2022_02_33_31_PM')]
+ INFO | 2022-11-09 14:35:06,129 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Addresses link
+ INFO | 2022-11-09 14:35:06,262 | CommonFrameworkKeywords.java | 90 | Waiting for 5 seconds...
+ INFO | 2022-11-09 14:35:11,277 | CommonFrameworkKeywords.java | 90 | Getting value of AppType from Test Configuration file : Hybird
+ INFO | 2022-11-09 14:35:11,595 | CommonFrameworkKeywords.java | 90 | Parsing : Confirmation popup Ok button@xpath=//button[contains(@id,'ok')]
+ INFO | 2022-11-09 14:35:11,595 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:11,595 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //button[contains(@id,'ok')]
+ INFO | 2022-11-09 14:35:11,595 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Confirmation popup Ok button
+ INFO | 2022-11-09 14:35:11,680 | CommonFrameworkKeywords.java | 90 | Click on :Confirmation popup Ok button
+ INFO | 2022-11-09 14:35:11,689 | CommonFrameworkKeywords.java | 90 | Parsing : Sites link@xpath=(//a[contains(text(),'Sites')])/parent::div/parent::div[contains(@id,'Tab')]
+ INFO | 2022-11-09 14:35:11,690 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:11,691 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//a[contains(text(),'Sites')])/parent::div/parent::div[contains(@id,'Tab')]
+ INFO | 2022-11-09 14:35:11,691 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Sites link
+ INFO | 2022-11-09 14:35:11,909 | CommonFrameworkKeywords.java | 90 | Click the 'Sites link'
+ INFO | 2022-11-09 14:35:11,920 | CommonFrameworkKeywords.java | 90 | Parsing : Procurement BU table header@xpath=//span[contains(text(),'Procurement BU')]
+ INFO | 2022-11-09 14:35:11,921 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:11,922 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //span[contains(text(),'Procurement BU')]
+ INFO | 2022-11-09 14:35:11,922 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Procurement BU table header
+ INFO | 2022-11-09 14:35:11,964 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:12,969 | CommonFrameworkKeywords.java | 90 | Parsing : Procurement BU table header@xpath=//span[contains(text(),'Procurement BU')]
+ INFO | 2022-11-09 14:35:12,970 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:12,970 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //span[contains(text(),'Procurement BU')]
+ INFO | 2022-11-09 14:35:12,970 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Procurement BU table header
+ INFO | 2022-11-09 14:35:12,997 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:14,013 | CommonFrameworkKeywords.java | 90 | Parsing : Procurement BU table header@xpath=//span[contains(text(),'Procurement BU')]
+ INFO | 2022-11-09 14:35:14,014 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:14,014 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //span[contains(text(),'Procurement BU')]
+ INFO | 2022-11-09 14:35:14,015 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Procurement BU table header
+ INFO | 2022-11-09 14:35:14,045 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:15,058 | CommonFrameworkKeywords.java | 90 | Parsing : Procurement BU table header@xpath=//span[contains(text(),'Procurement BU')]
+ INFO | 2022-11-09 14:35:15,059 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:15,059 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //span[contains(text(),'Procurement BU')]
+ INFO | 2022-11-09 14:35:15,059 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Procurement BU table header
+ INFO | 2022-11-09 14:35:15,162 | CommonFrameworkKeywords.java | 90 | Waiting for 3 seconds...
+ INFO | 2022-11-09 14:35:18,174 | CommonFrameworkKeywords.java | 90 | Parsing : Add symbol button@xpath=//img[@title='Create']
+ INFO | 2022-11-09 14:35:18,174 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:18,175 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //img[@title='Create']
+ INFO | 2022-11-09 14:35:18,175 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Add symbol button
+ INFO | 2022-11-09 14:35:18,247 | CommonFrameworkKeywords.java | 90 | Click on :Add symbol button
+ INFO | 2022-11-09 14:35:18,261 | CommonFrameworkKeywords.java | 90 | Parsing : Address Name textbox@xpath=//label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:18,262 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:18,262 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:18,262 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Address Name textbox
+ INFO | 2022-11-09 14:35:18,293 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:19,294 | CommonFrameworkKeywords.java | 90 | Parsing : Address Name textbox@xpath=//label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:19,295 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:19,295 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:19,295 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Address Name textbox
+ INFO | 2022-11-09 14:35:19,324 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:20,328 | CommonFrameworkKeywords.java | 90 | Parsing : Address Name textbox@xpath=//label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:20,329 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:20,329 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:20,330 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Address Name textbox
+ INFO | 2022-11-09 14:35:20,355 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:21,362 | CommonFrameworkKeywords.java | 90 | Parsing : Address Name textbox@xpath=//label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:21,363 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:21,363 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:21,364 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Address Name textbox
+ INFO | 2022-11-09 14:35:21,395 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:22,408 | CommonFrameworkKeywords.java | 90 | Parsing : Address Name textbox@xpath=//label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:22,409 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:22,409 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:22,409 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Address Name textbox
+ INFO | 2022-11-09 14:35:22,436 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:23,436 | CommonFrameworkKeywords.java | 90 | Parsing : Address Name textbox@xpath=//label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:23,436 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:23,437 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Address Name')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:23,437 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Address Name textbox
+ INFO | 2022-11-09 14:35:24,089 | CommonFrameworkKeywords.java | 90 | Type 'AddrTemp09_11_2022_02_33_31_PM' in : Address Name textbox
+ INFO | 2022-11-09 14:35:24,095 | CommonFrameworkKeywords.java | 90 | Typing 'AddrTemp09_11_2022_02_33_31_PM' in : Address Name textbox
+ INFO | 2022-11-09 14:35:24,102 | CommonFrameworkKeywords.java | 90 | Parsing : AddrTemp09_11_2022_02_33_31_PM option link@xpath=(//li[contains(text(),'AddrTemp09_11_2022_02_33_31_PM')])[1]
+ INFO | 2022-11-09 14:35:24,103 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:24,103 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//li[contains(text(),'AddrTemp09_11_2022_02_33_31_PM')])[1]
+ INFO | 2022-11-09 14:35:24,104 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : AddrTemp09_11_2022_02_33_31_PM option link
+ INFO | 2022-11-09 14:35:24,153 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:25,156 | CommonFrameworkKeywords.java | 90 | Parsing : AddrTemp09_11_2022_02_33_31_PM option link@xpath=(//li[contains(text(),'AddrTemp09_11_2022_02_33_31_PM')])[1]
+ INFO | 2022-11-09 14:35:25,157 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:25,157 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//li[contains(text(),'AddrTemp09_11_2022_02_33_31_PM')])[1]
+ INFO | 2022-11-09 14:35:25,157 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : AddrTemp09_11_2022_02_33_31_PM option link
+ INFO | 2022-11-09 14:35:25,186 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:26,195 | CommonFrameworkKeywords.java | 90 | Parsing : AddrTemp09_11_2022_02_33_31_PM option link@xpath=(//li[contains(text(),'AddrTemp09_11_2022_02_33_31_PM')])[1]
+ INFO | 2022-11-09 14:35:26,196 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:26,196 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//li[contains(text(),'AddrTemp09_11_2022_02_33_31_PM')])[1]
+ INFO | 2022-11-09 14:35:26,196 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : AddrTemp09_11_2022_02_33_31_PM option link
+ INFO | 2022-11-09 14:35:26,242 | CommonFrameworkKeywords.java | 90 | Click on :AddrTemp09_11_2022_02_33_31_PM option link
+ INFO | 2022-11-09 14:35:26,251 | CommonFrameworkKeywords.java | 90 | Parsing : Save and close button@xpath=(//span[contains(text(),'ave and Close')])[2]
+ INFO | 2022-11-09 14:35:26,251 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:26,252 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//span[contains(text(),'ave and Close')])[2]
+ INFO | 2022-11-09 14:35:26,252 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Save and close button
+ INFO | 2022-11-09 14:35:26,500 | CommonFrameworkKeywords.java | 90 | Click the 'Save and close button'
+ INFO | 2022-11-09 14:35:26,507 | CommonFrameworkKeywords.java | 90 | Waiting for 10 seconds...
+ INFO | 2022-11-09 14:35:36,526 | CommonFrameworkKeywords.java | 90 | Parsing : Save button@xpath=(//span[contains(text(),'Save')])[1]
+ INFO | 2022-11-09 14:35:36,527 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:36,527 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//span[contains(text(),'Save')])[1]
+ INFO | 2022-11-09 14:35:36,527 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Save button
+ INFO | 2022-11-09 14:35:36,782 | CommonFrameworkKeywords.java | 90 | Click the 'Save button'
+ INFO | 2022-11-09 14:35:36,787 | CommonFrameworkKeywords.java | 90 | Waiting for 5 seconds...
+ INFO | 2022-11-09 14:35:41,799 | CommonFrameworkKeywords.java | 90 | Parsing : Invoicing tab@xpath=(//a[contains(text(),'Invoicing')])[1]
+ INFO | 2022-11-09 14:35:41,799 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:41,800 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//a[contains(text(),'Invoicing')])[1]
+ INFO | 2022-11-09 14:35:41,800 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Invoicing tab
+ INFO | 2022-11-09 14:35:41,886 | CommonFrameworkKeywords.java | 90 | Click on :Invoicing tab
+ INFO | 2022-11-09 14:35:41,897 | CommonFrameworkKeywords.java | 90 | Parsing : Payment Terms textbox@xpath=//label[contains(text(),'Payment Terms')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:41,898 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:41,898 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Payment Terms')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:41,899 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Payment Terms textbox
+ INFO | 2022-11-09 14:35:41,938 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:42,938 | CommonFrameworkKeywords.java | 90 | Parsing : Payment Terms textbox@xpath=//label[contains(text(),'Payment Terms')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:42,939 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:42,939 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Payment Terms')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:42,939 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Payment Terms textbox
+ INFO | 2022-11-09 14:35:42,965 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:43,969 | CommonFrameworkKeywords.java | 90 | Parsing : Payment Terms textbox@xpath=//label[contains(text(),'Payment Terms')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:43,969 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:43,969 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Payment Terms')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:35:43,969 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Payment Terms textbox
+ INFO | 2022-11-09 14:35:44,281 | CommonFrameworkKeywords.java | 90 | Type 'NET 30' in : Payment Terms textbox
+ INFO | 2022-11-09 14:35:44,284 | CommonFrameworkKeywords.java | 90 | Typing 'NET 30' in : Payment Terms textbox
+ INFO | 2022-11-09 14:35:44,287 | CommonFrameworkKeywords.java | 90 | Parsing : NET 30 NET 30 option link@xpath=//li[text()='NET 30 NET 30']
+ INFO | 2022-11-09 14:35:44,287 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:44,287 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //li[text()='NET 30 NET 30']
+ INFO | 2022-11-09 14:35:44,288 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : NET 30 NET 30 option link
+ INFO | 2022-11-09 14:35:44,316 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:45,331 | CommonFrameworkKeywords.java | 90 | Parsing : NET 30 NET 30 option link@xpath=//li[text()='NET 30 NET 30']
+ INFO | 2022-11-09 14:35:45,331 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:45,332 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //li[text()='NET 30 NET 30']
+ INFO | 2022-11-09 14:35:45,332 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : NET 30 NET 30 option link
+ INFO | 2022-11-09 14:35:45,365 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:46,377 | CommonFrameworkKeywords.java | 90 | Parsing : NET 30 NET 30 option link@xpath=//li[text()='NET 30 NET 30']
+ INFO | 2022-11-09 14:35:46,377 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:46,378 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //li[text()='NET 30 NET 30']
+ INFO | 2022-11-09 14:35:46,378 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : NET 30 NET 30 option link
+ INFO | 2022-11-09 14:35:46,434 | CommonFrameworkKeywords.java | 90 | Click on :NET 30 NET 30 option link
+ INFO | 2022-11-09 14:35:46,442 | CommonFrameworkKeywords.java | 90 | Getting value of AppType from Test Configuration file : Hybird
+ INFO | 2022-11-09 14:35:46,773 | CommonFrameworkKeywords.java | 90 | Parsing : Invoicing tab@xpath=(//a[contains(text(),'Site Assignments')])[1]
+ INFO | 2022-11-09 14:35:46,773 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:46,773 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//a[contains(text(),'Site Assignments')])[1]
+ INFO | 2022-11-09 14:35:46,773 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Invoicing tab
+ INFO | 2022-11-09 14:35:46,835 | CommonFrameworkKeywords.java | 90 | Click on :Invoicing tab
+ INFO | 2022-11-09 14:35:46,839 | CommonFrameworkKeywords.java | 90 | Waiting for 3 seconds...
+ INFO | 2022-11-09 14:35:49,855 | CommonFrameworkKeywords.java | 90 | Parsing : Add symbol button@xpath=//img[@title='Add']
+ INFO | 2022-11-09 14:35:49,856 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:49,856 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //img[@title='Add']
+ INFO | 2022-11-09 14:35:49,856 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Add symbol button
+ INFO | 2022-11-09 14:35:49,962 | CommonFrameworkKeywords.java | 90 | Click on :Add symbol button
+ INFO | 2022-11-09 14:35:49,968 | CommonFrameworkKeywords.java | 90 | Waiting for 3 seconds...
+ INFO | 2022-11-09 14:35:52,976 | CommonFrameworkKeywords.java | 90 | Parsing : Client BU dropdown@xpath=//a[@title='Search: Client BU']
+ INFO | 2022-11-09 14:35:52,977 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:52,977 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //a[@title='Search: Client BU']
+ INFO | 2022-11-09 14:35:52,977 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Client BU dropdown
+ INFO | 2022-11-09 14:35:53,016 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:54,021 | CommonFrameworkKeywords.java | 90 | Parsing : Client BU dropdown@xpath=//a[@title='Search: Client BU']
+ INFO | 2022-11-09 14:35:54,022 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:54,022 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //a[@title='Search: Client BU']
+ INFO | 2022-11-09 14:35:54,023 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Client BU dropdown
+ INFO | 2022-11-09 14:35:54,136 | CommonFrameworkKeywords.java | 90 | Click on :Client BU dropdown
+ INFO | 2022-11-09 14:35:54,144 | CommonFrameworkKeywords.java | 90 | Waiting for 3 seconds...
+ INFO | 2022-11-09 14:35:57,157 | CommonFrameworkKeywords.java | 90 | Parsing : Client BU dropdown@xpath=//a[@title='Search: Client BU']
+ INFO | 2022-11-09 14:35:57,158 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:57,158 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //a[@title='Search: Client BU']
+ INFO | 2022-11-09 14:35:57,158 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Client BU dropdown
+ INFO | 2022-11-09 14:35:57,233 | CommonFrameworkKeywords.java | 90 | Click on :Client BU dropdown
+ INFO | 2022-11-09 14:35:57,241 | CommonFrameworkKeywords.java | 90 | Getting value of AppType from Test Configuration file : Hybird
+ INFO | 2022-11-09 14:35:57,542 | CommonFrameworkKeywords.java | 90 | Parsing : Trilogy Investors, LLC option link@xpath=//span[text()='Trilogy Investors, LLC']
+ INFO | 2022-11-09 14:35:57,543 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:57,543 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //span[text()='Trilogy Investors, LLC']
+ INFO | 2022-11-09 14:35:57,543 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Trilogy Investors, LLC option link
+ INFO | 2022-11-09 14:35:57,570 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:58,574 | CommonFrameworkKeywords.java | 90 | Parsing : Trilogy Investors, LLC option link@xpath=//span[text()='Trilogy Investors, LLC']
+ INFO | 2022-11-09 14:35:58,575 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:58,575 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //span[text()='Trilogy Investors, LLC']
+ INFO | 2022-11-09 14:35:58,575 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Trilogy Investors, LLC option link
+ INFO | 2022-11-09 14:35:58,603 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:35:59,606 | CommonFrameworkKeywords.java | 90 | Parsing : Trilogy Investors, LLC option link@xpath=//span[text()='Trilogy Investors, LLC']
+ INFO | 2022-11-09 14:35:59,606 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:35:59,607 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //span[text()='Trilogy Investors, LLC']
+ INFO | 2022-11-09 14:35:59,607 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Trilogy Investors, LLC option link
+ INFO | 2022-11-09 14:35:59,709 | CommonFrameworkKeywords.java | 90 | Click on :Trilogy Investors, LLC option link
+ INFO | 2022-11-09 14:35:59,717 | CommonFrameworkKeywords.java | 90 | Waiting for 3 seconds...
+ INFO | 2022-11-09 14:36:02,726 | CommonFrameworkKeywords.java | 90 | Parsing : Save and close button@xpath=(//span[contains(text(),'ave and Close')])[2]
+ INFO | 2022-11-09 14:36:02,726 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:02,727 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//span[contains(text(),'ave and Close')])[2]
+ INFO | 2022-11-09 14:36:02,727 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Save and close button
+ INFO | 2022-11-09 14:36:03,056 | CommonFrameworkKeywords.java | 90 | Click the 'Save and close button'
+ INFO | 2022-11-09 14:36:03,061 | CommonFrameworkKeywords.java | 90 | Waiting for 5 seconds...
+ INFO | 2022-11-09 14:36:08,076 | CommonFrameworkKeywords.java | 90 | Getting value of AppType from Test Configuration file : Hybird
+ INFO | 2022-11-09 14:36:08,408 | CommonFrameworkKeywords.java | 90 | Parsing : Save and close button@xpath=(//span[contains(text(),'ave and Close')])[2]
+ INFO | 2022-11-09 14:36:08,409 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:08,409 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//span[contains(text(),'ave and Close')])[2]
+ INFO | 2022-11-09 14:36:08,409 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Save and close button
+ INFO | 2022-11-09 14:36:08,584 | CommonFrameworkKeywords.java | 90 | Click the 'Save and close button'
+ INFO | 2022-11-09 14:36:08,591 | CommonFrameworkKeywords.java | 90 | Parsing : Sites link@xpath=(//a[contains(text(),'Sites')])/parent::div/parent::div[contains(@id,'Tab')]
+ INFO | 2022-11-09 14:36:08,591 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:08,592 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//a[contains(text(),'Sites')])/parent::div/parent::div[contains(@id,'Tab')]
+ INFO | 2022-11-09 14:36:08,592 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Sites link
+ INFO | 2022-11-09 14:36:08,662 | CommonFrameworkKeywords.java | 90 | Waiting for 5 seconds...
+ INFO | 2022-11-09 14:36:13,675 | CommonFrameworkKeywords.java | 90 | Getting value of AppType from Test Configuration file : Hybird
+ INFO | 2022-11-09 14:36:14,008 | CommonFrameworkKeywords.java | 90 | Parsing : Confirmation popup Ok button@xpath=//button[contains(@id,'ok')]
+ INFO | 2022-11-09 14:36:14,009 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:14,009 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //button[contains(@id,'ok')]
+ INFO | 2022-11-09 14:36:14,009 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Confirmation popup Ok button
+ INFO | 2022-11-09 14:36:14,093 | CommonFrameworkKeywords.java | 90 | Click on :Confirmation popup Ok button
+ INFO | 2022-11-09 14:36:14,097 | CommonFrameworkKeywords.java | 90 | Verified sucessfully created supplier with addresses and sites
+ INFO | 2022-11-09 14:36:14,105 | CommonFrameworkKeywords.java | 90 | Parsing : Home link@xpath=//a[@title='Home']
+ INFO | 2022-11-09 14:36:14,106 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:14,106 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //a[@title='Home']
+ INFO | 2022-11-09 14:36:14,106 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Home link
+ INFO | 2022-11-09 14:36:14,241 | CommonFrameworkKeywords.java | 90 | Click on :Home link
+ INFO | 2022-11-09 14:36:14,244 | CommonFrameworkKeywords.java | 90 | Waiting for 2 seconds...
+ INFO | 2022-11-09 14:36:16,250 | CommonFrameworkKeywords.java | 90 | Parsing : Procurement link@xpath=//div[@id='groupNode_procurement']
+ INFO | 2022-11-09 14:36:16,251 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:16,251 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //div[@id='groupNode_procurement']
+ INFO | 2022-11-09 14:36:16,251 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Procurement link
+ INFO | 2022-11-09 14:36:17,573 | CommonFrameworkKeywords.java | 90 | Click on :Procurement link
+ INFO | 2022-11-09 14:36:17,580 | CommonFrameworkKeywords.java | 90 | Waiting for 2 seconds...
+ INFO | 2022-11-09 14:36:19,588 | CommonFrameworkKeywords.java | 90 | Parsing : Suppliers link@id=itemNode_procurement_suppliers
+ INFO | 2022-11-09 14:36:19,589 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : id
+ INFO | 2022-11-09 14:36:19,589 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : itemNode_procurement_suppliers
+ INFO | 2022-11-09 14:36:19,589 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Suppliers link
+ INFO | 2022-11-09 14:36:19,702 | CommonFrameworkKeywords.java | 90 | Click on :Suppliers link
+ INFO | 2022-11-09 14:36:19,715 | CommonFrameworkKeywords.java | 90 | Parsing : Task panel@xpath=//div[@title='Tasks']
+ INFO | 2022-11-09 14:36:19,716 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:19,716 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //div[@title='Tasks']
+ INFO | 2022-11-09 14:36:19,716 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Task panel
+ INFO | 2022-11-09 14:36:19,764 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:36:20,802 | CommonFrameworkKeywords.java | 90 | Parsing : Task panel@xpath=//div[@title='Tasks']
+ INFO | 2022-11-09 14:36:20,805 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:20,809 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //div[@title='Tasks']
+ INFO | 2022-11-09 14:36:20,813 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Task panel
+ INFO | 2022-11-09 14:36:20,911 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:36:21,913 | CommonFrameworkKeywords.java | 90 | Parsing : Task panel@xpath=//div[@title='Tasks']
+ INFO | 2022-11-09 14:36:21,914 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:21,914 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //div[@title='Tasks']
+ INFO | 2022-11-09 14:36:21,914 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Task panel
+ INFO | 2022-11-09 14:36:21,943 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:36:22,953 | CommonFrameworkKeywords.java | 90 | Parsing : Task panel@xpath=//div[@title='Tasks']
+ INFO | 2022-11-09 14:36:22,953 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:22,953 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //div[@title='Tasks']
+ INFO | 2022-11-09 14:36:22,953 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Task panel
+ INFO | 2022-11-09 14:36:23,544 | CommonFrameworkKeywords.java | 90 | Click on :Task panel
+ INFO | 2022-11-09 14:36:23,552 | CommonFrameworkKeywords.java | 90 | Parsing : Manage Suppliers link @xpath=(//a[contains(text(),'Manage Suppliers')])[1]
+ INFO | 2022-11-09 14:36:23,552 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:23,552 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//a[contains(text(),'Manage Suppliers')])[1]
+ INFO | 2022-11-09 14:36:23,553 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Manage Suppliers link 
+ INFO | 2022-11-09 14:36:23,579 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:36:24,588 | CommonFrameworkKeywords.java | 90 | Parsing : Manage Suppliers link @xpath=(//a[contains(text(),'Manage Suppliers')])[1]
+ INFO | 2022-11-09 14:36:24,589 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:24,589 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//a[contains(text(),'Manage Suppliers')])[1]
+ INFO | 2022-11-09 14:36:24,589 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Manage Suppliers link 
+ INFO | 2022-11-09 14:36:24,783 | CommonFrameworkKeywords.java | 90 | Click on :Manage Suppliers link 
+ INFO | 2022-11-09 14:36:24,790 | CommonFrameworkKeywords.java | 90 | Parsing : Keywords textbox@xpath=//label[contains(text(),'Keywords')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:36:24,790 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:24,790 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Keywords')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:36:24,790 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Keywords textbox
+ INFO | 2022-11-09 14:36:24,814 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:36:25,829 | CommonFrameworkKeywords.java | 90 | Parsing : Keywords textbox@xpath=//label[contains(text(),'Keywords')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:36:25,830 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:25,830 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Keywords')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:36:25,830 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Keywords textbox
+ INFO | 2022-11-09 14:36:25,860 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:36:26,865 | CommonFrameworkKeywords.java | 90 | Parsing : Keywords textbox@xpath=//label[contains(text(),'Keywords')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:36:26,865 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:26,866 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Keywords')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:36:26,866 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Keywords textbox
+ INFO | 2022-11-09 14:36:27,341 | CommonFrameworkKeywords.java | 90 | Type 'THSUPPLIER09_11_2022_02_33_31_PM' in : Keywords textbox
+ INFO | 2022-11-09 14:36:27,344 | CommonFrameworkKeywords.java | 90 | Typing 'THSUPPLIER09_11_2022_02_33_31_PM' in : Keywords textbox
+ INFO | 2022-11-09 14:36:27,346 | CommonFrameworkKeywords.java | 90 | Parsing : Search button@xpath=//button[contains(text(),'Search')]
+ INFO | 2022-11-09 14:36:27,346 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:27,347 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //button[contains(text(),'Search')]
+ INFO | 2022-11-09 14:36:27,348 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Search button
+ INFO | 2022-11-09 14:36:27,397 | CommonFrameworkKeywords.java | 90 | Click on :Search button
+ INFO | 2022-11-09 14:36:27,403 | CommonFrameworkKeywords.java | 90 | Parsing : THSUPPLIER09_11_2022_02_33_31_PM@xpath=//a[text()='THSUPPLIER09_11_2022_02_33_31_PM']
+ INFO | 2022-11-09 14:36:27,404 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:27,404 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //a[text()='THSUPPLIER09_11_2022_02_33_31_PM']
+ INFO | 2022-11-09 14:36:27,404 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : THSUPPLIER09_11_2022_02_33_31_PM
+ INFO | 2022-11-09 14:36:27,448 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:36:28,450 | CommonFrameworkKeywords.java | 90 | Parsing : THSUPPLIER09_11_2022_02_33_31_PM@xpath=//a[text()='THSUPPLIER09_11_2022_02_33_31_PM']
+ INFO | 2022-11-09 14:36:28,450 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:28,450 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //a[text()='THSUPPLIER09_11_2022_02_33_31_PM']
+ INFO | 2022-11-09 14:36:28,451 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : THSUPPLIER09_11_2022_02_33_31_PM
+ INFO | 2022-11-09 14:36:28,478 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:36:29,485 | CommonFrameworkKeywords.java | 90 | Parsing : THSUPPLIER09_11_2022_02_33_31_PM@xpath=//a[text()='THSUPPLIER09_11_2022_02_33_31_PM']
+ INFO | 2022-11-09 14:36:29,486 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:29,486 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //a[text()='THSUPPLIER09_11_2022_02_33_31_PM']
+ INFO | 2022-11-09 14:36:29,486 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : THSUPPLIER09_11_2022_02_33_31_PM
+ INFO | 2022-11-09 14:36:29,518 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:36:30,521 | CommonFrameworkKeywords.java | 90 | Parsing : THSUPPLIER09_11_2022_02_33_31_PM@xpath=//a[text()='THSUPPLIER09_11_2022_02_33_31_PM']
+ INFO | 2022-11-09 14:36:30,522 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:30,522 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //a[text()='THSUPPLIER09_11_2022_02_33_31_PM']
+ INFO | 2022-11-09 14:36:30,522 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : THSUPPLIER09_11_2022_02_33_31_PM
+ INFO | 2022-11-09 14:36:30,539 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:36:31,544 | CommonFrameworkKeywords.java | 90 | Parsing : THSUPPLIER09_11_2022_02_33_31_PM@xpath=//a[text()='THSUPPLIER09_11_2022_02_33_31_PM']
+ INFO | 2022-11-09 14:36:31,544 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:31,544 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //a[text()='THSUPPLIER09_11_2022_02_33_31_PM']
+ INFO | 2022-11-09 14:36:31,545 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : THSUPPLIER09_11_2022_02_33_31_PM
+ INFO | 2022-11-09 14:36:31,599 | CommonFrameworkKeywords.java | 90 | Click on :THSUPPLIER09_11_2022_02_33_31_PM
+ INFO | 2022-11-09 14:36:31,607 | CommonFrameworkKeywords.java | 90 | Parsing : Supplier type dropdown@xpath=//label[text()='Supplier Type']/parent::td/parent::tr//select
+ INFO | 2022-11-09 14:36:31,607 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:31,607 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[text()='Supplier Type']/parent::td/parent::tr//select
+ INFO | 2022-11-09 14:36:31,607 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Supplier type dropdown
+ INFO | 2022-11-09 14:36:31,633 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:36:32,637 | CommonFrameworkKeywords.java | 90 | Parsing : Supplier type dropdown@xpath=//label[text()='Supplier Type']/parent::td/parent::tr//select
+ INFO | 2022-11-09 14:36:32,638 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:32,638 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[text()='Supplier Type']/parent::td/parent::tr//select
+ INFO | 2022-11-09 14:36:32,638 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Supplier type dropdown
+ INFO | 2022-11-09 14:36:32,662 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:36:33,663 | CommonFrameworkKeywords.java | 90 | Parsing : Supplier type dropdown@xpath=//label[text()='Supplier Type']/parent::td/parent::tr//select
+ INFO | 2022-11-09 14:36:33,664 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:33,664 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[text()='Supplier Type']/parent::td/parent::tr//select
+ INFO | 2022-11-09 14:36:33,665 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Supplier type dropdown
+ INFO | 2022-11-09 14:36:34,115 | CommonFrameworkKeywords.java | 90 | Select 'Supplier' option  from : Supplier type dropdown'
+ INFO | 2022-11-09 14:36:34,122 | CommonFrameworkKeywords.java | 90 | Waiting for 5 seconds...
+ INFO | 2022-11-09 14:36:39,131 | CommonFrameworkKeywords.java | 90 | Getting value of AppType from Test Configuration file : Hybird
+ INFO | 2022-11-09 14:36:39,433 | CommonFrameworkKeywords.java | 90 | Parsing : Save and close button@xpath=(//span[contains(text(),'ave and Close')])[2]
+ INFO | 2022-11-09 14:36:39,433 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:39,434 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//span[contains(text(),'ave and Close')])[2]
+ INFO | 2022-11-09 14:36:39,434 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Save and close button
+ INFO | 2022-11-09 14:36:39,653 | CommonFrameworkKeywords.java | 90 | Click the 'Save and close button'
+ INFO | 2022-11-09 14:36:39,661 | CommonFrameworkKeywords.java | 90 | Parsing : Keywords textbox@xpath=//label[contains(text(),'Keywords')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:36:39,662 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:39,662 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Keywords')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:36:39,662 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Keywords textbox
+ INFO | 2022-11-09 14:36:39,681 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:36:40,689 | CommonFrameworkKeywords.java | 90 | Parsing : Keywords textbox@xpath=//label[contains(text(),'Keywords')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:36:40,690 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:40,690 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Keywords')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:36:40,690 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Keywords textbox
+ INFO | 2022-11-09 14:36:40,717 | CommonFrameworkKeywords.java | 90 | NoSuchElementException occured. Retrying..............
+ INFO | 2022-11-09 14:36:41,717 | CommonFrameworkKeywords.java | 90 | Parsing : Keywords textbox@xpath=//label[contains(text(),'Keywords')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:36:41,718 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:41,718 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : //label[contains(text(),'Keywords')]/parent::td/parent::tr//input
+ INFO | 2022-11-09 14:36:41,718 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Keywords textbox
+ INFO | 2022-11-09 14:36:42,169 | CommonFrameworkKeywords.java | 90 | Waiting for 5 seconds...
+ INFO | 2022-11-09 14:36:47,174 | CommonFrameworkKeywords.java | 90 | Getting value of AppType from Test Configuration file : Hybird
+ INFO | 2022-11-09 14:36:47,375 | CommonFrameworkKeywords.java | 90 | Parsing : Confirmation popup Ok button@xpath=(//button[contains(@id,'ok')])[1]
+ INFO | 2022-11-09 14:36:47,376 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : xpath
+ INFO | 2022-11-09 14:36:47,376 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : (//button[contains(@id,'ok')])[1]
+ INFO | 2022-11-09 14:36:47,376 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Confirmation popup Ok button
+ INFO | 2022-11-09 14:36:47,422 | CommonFrameworkKeywords.java | 90 | Click on :Confirmation popup Ok button
+ INFO | 2022-11-09 14:36:47,426 | CommonFrameworkKeywords.java | 90 | Verified sucessfully updated supplier type
+ INFO | 2022-11-09 14:36:47,439 | CommonFrameworkKeywords.java | 90 | Getting value of Version_Name from Test Configuration file : 2
+ INFO | 2022-11-09 14:36:47,441 | CommonFrameworkKeywords.java | 90 | Getting value of Project_Name from Test Configuration file : AUTOMATION REPORT
+ INFO | 2022-11-09 14:36:52,964 | CommonFrameworkKeywords.java | 90 | ###################################
+ INFO | 2022-11-09 14:36:52,965 | CommonFrameworkKeywords.java | 90 | Test Script Execution Completed
+ INFO | 2022-11-09 14:36:52,965 | CommonFrameworkKeywords.java | 90 | ####################################

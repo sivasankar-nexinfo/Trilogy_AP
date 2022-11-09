@@ -1,0 +1,29 @@
+/* Common Style */
+@font-face{font-family:'OpenSansRegular';src:url('../fonts/OpenSans-Regular.eot');src:url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),url('../fonts/OpenSans-Regular.ttf') format('truetype');font-weight:normal;font-style:normal;}
+@font-face{font-family:'OpenSansSemiBold';src:url('../fonts/OpenSans-Semibold.eot');src:url('../fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),url('../fonts/OpenSans-Semibold.ttf') format('truetype');font-weight:normal;font-style:normal;}
+*,a:focus{outline:none;}
+html,body{}
+body{font:normal 14px/20px 'OpenSansRegular',arial;color:#666666;}
+ul{padding:0px;}
+.no_bullet,.no_bullet li{list-style: none;}
+h1,h2,h3,h4,h5,h6{color: #333;}
+input[type="text"],input[type="number"]{border-radius: 0px;}
+a{color: #2e3192;}
+#accordion h4,#accordion .panel-title,.btn-warning,.main_menu li a,h2,h3,h4,h5,h6{font-family:'OpenSansSemiBold';}
+.header_bg{background-color:#006000;}
+.logo{padding:0px;}
+.logo a{background:url(../../Logos/Vayana_Logo.png) 0 0 no-repeat;display:block;height:120px;text-indent:-20000px;width:1000px;}
+.client_logo{
+  background: url(../../Logos/SHB_LOGO.png) 0 0 no-repeat;
+  display:block;
+  height: 60px;
+  margin:10px 0px 10px;
+  width: 600px;
+}
+.container{
+    width: 1000px;
+}
+.table tr.default  th{
+    background-color: #ffe63b;
+    text-align: center;
+}

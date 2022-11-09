@@ -1,0 +1,57 @@
+ INFO | 2022-11-09 14:40:39,399 | CommonFrameworkKeywords.java | 90 | Startup activites...
+ INFO | 2022-11-09 14:40:39,403 | CommonFrameworkKeywords.java | 90 | Test Output Directory creation successful :C:\Users\v-sivasankars\Downloads\Automation Framework (1) (1)\Automation Framework/TestReports/09_11_2022_02_40_39_PM
+ INFO | 2022-11-09 14:40:39,403 | CommonFrameworkKeywords.java | 90 | Log File creation successful : LogFile.log
+ INFO | 2022-11-09 14:40:39,921 | CommonFrameworkKeywords.java | 90 | Getting value of Tc_Settings_Excelpath from Test Configuration file : ./data/TCExecutionSettings.xls
+ INFO | 2022-11-09 14:40:41,156 | CommonFrameworkKeywords.java | 90 | Getting value of ElementLoadWaitTime from Test Configuration file : 61
+ INFO | 2022-11-09 14:40:41,158 | CommonFrameworkKeywords.java | 90 | Getting value of TextLoadWaitTime from Test Configuration file : 64
+ INFO | 2022-11-09 14:40:41,158 | CommonFrameworkKeywords.java | 90 | Getting value of PageLoadWaitTime from Test Configuration file : 60
+ INFO | 2022-11-09 14:40:41,159 | CommonFrameworkKeywords.java | 90 | Getting value of ImplicitlyWaitTime from Test Configuration file : 62
+ INFO | 2022-11-09 14:40:41,160 | CommonFrameworkKeywords.java | 90 | Element time out set
+ INFO | 2022-11-09 14:40:41,162 | CommonFrameworkKeywords.java | 90 | Getting value of NexInfo_logo_path from Test Configuration file : ./Logos/nexInfo.jpg
+ INFO | 2022-11-09 14:40:41,163 | CommonFrameworkKeywords.java | 90 | Getting value of Zenoti_logo_path from Test Configuration file : ./Logos/nexInfo.jpg
+ INFO | 2022-11-09 14:40:41,164 | CommonFrameworkKeywords.java | 90 | Getting value of NexInfo_logo_path from Test Configuration file : ./Logos/nexInfo.jpg
+ INFO | 2022-11-09 14:40:41,165 | CommonFrameworkKeywords.java | 90 | Getting value of Zenoti_logo_path from Test Configuration file : ./Logos/nexInfo.jpg
+ INFO | 2022-11-09 14:40:41,236 | CommonFrameworkKeywords.java | 90 | Opening Chrome Browser...
+ INFO | 2022-11-09 14:40:41,237 | CommonFrameworkKeywords.java | 90 | Getting value of AppiumTimeOut from Test Configuration file : 63
+ INFO | 2022-11-09 14:40:45,806 | CommonFrameworkKeywords.java | 90 | Successfully Maximised Browser Window
+ INFO | 2022-11-09 14:40:45,823 | CommonFrameworkKeywords.java | 90 | Browser: Open Successful : chrome
+ INFO | 2022-11-09 14:40:45,824 | CommonFrameworkKeywords.java | 90 | Lanuch App : chrome
+ INFO | 2022-11-09 14:40:45,830 | CommonFrameworkKeywords.java | 90 | Getting value of URL from Test Configuration file : https://eoeq-test.fa.us2.oraclecloud.com/
+ INFO | 2022-11-09 14:40:45,831 | CommonFrameworkKeywords.java | 90 | Navigating to URL : https://eoeq-test.fa.us2.oraclecloud.com/
+ INFO | 2022-11-09 14:40:53,000 | CommonFrameworkKeywords.java | 90 | Navigation Successful : https://eoeq-test.fa.us2.oraclecloud.com/
+ INFO | 2022-11-09 14:40:53,000 | CommonFrameworkKeywords.java | 90 | Go to : https://eoeq-test.fa.us2.oraclecloud.com/
+ INFO | 2022-11-09 14:40:53,788 | CommonFrameworkKeywords.java | 90 | Getting value of ElementLoadWaitTime from Test Configuration file : 61
+ INFO | 2022-11-09 14:40:53,790 | CommonFrameworkKeywords.java | 90 | Getting value of TextLoadWaitTime from Test Configuration file : 64
+ INFO | 2022-11-09 14:40:53,791 | CommonFrameworkKeywords.java | 90 | Getting value of PageLoadWaitTime from Test Configuration file : 60
+ INFO | 2022-11-09 14:40:53,793 | CommonFrameworkKeywords.java | 90 | Getting value of ImplicitlyWaitTime from Test Configuration file : 62
+ INFO | 2022-11-09 14:40:53,793 | CommonFrameworkKeywords.java | 90 | Element time out set
+ INFO | 2022-11-09 14:40:53,793 | CommonFrameworkKeywords.java | 90 | ##### Start of Test Case : AP_TS_001 #####
+ INFO | 2022-11-09 14:40:53,798 | CommonFrameworkKeywords.java | 90 | Getting value of InputDataFile from Test Configuration file : ./data/InputData.xls
+ INFO | 2022-11-09 14:40:53,927 | CommonFrameworkKeywords.java | 90 | Getting value of Username from Test Configuration file : erpsysadmin
+ INFO | 2022-11-09 14:40:53,929 | CommonFrameworkKeywords.java | 90 | Getting value of Password from Test Configuration file : TSTerp!@#456
+ INFO | 2022-11-09 14:40:53,930 | CommonFrameworkKeywords.java | 90 | Getting value of URL from Test Configuration file : https://eoeq-test.fa.us2.oraclecloud.com/
+ INFO | 2022-11-09 14:40:53,930 | CommonFrameworkKeywords.java | 90 | Navigating to URL : https://eoeq-test.fa.us2.oraclecloud.com/
+ INFO | 2022-11-09 14:40:56,363 | CommonFrameworkKeywords.java | 90 | Navigation Successful : https://eoeq-test.fa.us2.oraclecloud.com/
+ INFO | 2022-11-09 14:40:56,364 | CommonFrameworkKeywords.java | 90 | Go to : https://eoeq-test.fa.us2.oraclecloud.com/
+ INFO | 2022-11-09 14:40:56,385 | CommonFrameworkKeywords.java | 90 | Parsing : Username textbox@id=userid
+ INFO | 2022-11-09 14:40:56,386 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : id
+ INFO | 2022-11-09 14:40:56,386 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : userid
+ INFO | 2022-11-09 14:40:56,388 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Username textbox
+ INFO | 2022-11-09 14:40:56,760 | CommonFrameworkKeywords.java | 90 | Type 'erpsysadmin' in : Username textbox
+ INFO | 2022-11-09 14:40:56,765 | CommonFrameworkKeywords.java | 90 | Typing 'erpsysadmin' in : Username textbox
+ INFO | 2022-11-09 14:40:56,772 | CommonFrameworkKeywords.java | 90 | Parsing : Password textbox@id=password
+ INFO | 2022-11-09 14:40:56,772 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : id
+ INFO | 2022-11-09 14:40:56,773 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : password
+ INFO | 2022-11-09 14:40:56,773 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Password textbox
+ INFO | 2022-11-09 14:40:57,066 | CommonFrameworkKeywords.java | 90 | Type 'TSTerp!@#456' in : Password textbox
+ INFO | 2022-11-09 14:40:57,071 | CommonFrameworkKeywords.java | 90 | Typing 'TSTerp!@#456' in : Password textbox
+ INFO | 2022-11-09 14:40:57,077 | CommonFrameworkKeywords.java | 90 | Parsing : Submit button@id=btnActive
+ INFO | 2022-11-09 14:40:57,078 | CommonFrameworkKeywords.java | 90 | Desktop1-Identify By : id
+ INFO | 2022-11-09 14:40:57,078 | CommonFrameworkKeywords.java | 90 | Desktop1-Locator : btnActive
+ INFO | 2022-11-09 14:40:57,078 | CommonFrameworkKeywords.java | 90 | Desktop1Locator Description : Submit button
+ INFO | 2022-11-09 14:41:00,965 | CommonFrameworkKeywords.java | 90 | Click on :Submit button
+ INFO | 2022-11-09 14:41:00,985 | CommonFrameworkKeywords.java | 90 | Getting value of Version_Name from Test Configuration file : 2
+ INFO | 2022-11-09 14:41:00,988 | CommonFrameworkKeywords.java | 90 | Getting value of Project_Name from Test Configuration file : AUTOMATION REPORT
+ INFO | 2022-11-09 14:41:15,120 | CommonFrameworkKeywords.java | 90 | ###################################
+ INFO | 2022-11-09 14:41:15,121 | CommonFrameworkKeywords.java | 90 | Test Script Execution Completed
+ INFO | 2022-11-09 14:41:15,121 | CommonFrameworkKeywords.java | 90 | ####################################
